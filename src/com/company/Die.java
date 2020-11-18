@@ -2,10 +2,14 @@ package com.company;
 
 public class Die {
 
-    public void roll{
-        int x = 
-    }
+    private int total;
 
+    public void roll(){
+        total = (int)(Math.random() * 6 + 1);
+    }
+    public int getNumDots(){
+        return total;
+    }
 
     public static void main (String[] args){
         //TODO Auto-generated methods stub

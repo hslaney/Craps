@@ -42,12 +42,8 @@ public class CrapsGame
             point=total;
             result=0;
         }
-
         return result;
-
-
         }
-
 
     /**
      *  Returns the saved point
